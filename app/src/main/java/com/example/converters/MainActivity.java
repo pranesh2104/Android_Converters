@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         i.setType("text/plain");
         Uri file=Uri.parse(apkpath);
 //        i.putExtra(Intent.EXTRA_STREAM, file);
-        i.putExtra(Intent.EXTRA_TEXT,"Click Here:  https://drive.google.com/file/d/1rmPt4BK89a-YThOl3Lc1zoXS7tye5kPD/view?usp=sharing");
+        i.putExtra(Intent.EXTRA_TEXT,"Click Here:  https://github.com/pranesh2104/Android_Converters/tree/main/Application");
         startActivity(Intent.createChooser(i,"Share app Using"));
 
     }
